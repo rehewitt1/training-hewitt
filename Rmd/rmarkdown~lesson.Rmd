@@ -1,0 +1,19 @@
+---
+title: "Untitled"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+*italic* 
+# Header 1
+
+## Header 2
+
+### Header 3
+
+1. Item 1
+2. Item 2
+3. Item 3
