@@ -17,3 +17,5 @@ knitr::opts_chunk$set(echo = TRUE)
 1. Item 1
 2. Item 2
 3. Item 3
+
+We learned how to connect a local repo to github
