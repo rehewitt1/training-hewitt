@@ -12,6 +12,7 @@ knitr::opts_chunk$set(echo = TRUE)
 - [Data Tidying](Rmd/Data Tidying.Rmd)
 - [Rmarkdown lesson](Rmd/rmarkdown~lesson.html)
 
-upload image to directory first then add in line with code below
-##![](image.png) 
+
+
+
 
