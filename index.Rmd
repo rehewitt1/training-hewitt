@@ -7,7 +7,7 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-##Research Projects
+##Research Project links
 
 - [Data Tidying](Rmd/Data Tidying.Rmd)
 - [Rmarkdown lesson](Rmd/rmarkdown~lesson.html)
