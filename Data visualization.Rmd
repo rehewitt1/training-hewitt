@@ -53,9 +53,22 @@ head(annual_esc)
 ggplot(annual_esc, aes(x = Species, y = escapement)) +
   geom_col()
 ```
+make the bars blue
+```{r}
+ggplot(annual_esc, aes(x = Species, y = escapement)) +
+  geom_col(fill = "blue")
+```
+fill color by region
+```{r}
+ggplot(annual_esc, aes(x = Species, y = escapement, fill = SASAP.Region)) +
+  geom_col()
+```
 
 ```{r}
-ggplot(annual_esc, aes(x = Species, y = escapement, fill = "blue")) +
-  geom_col()
+annual_esc %>% 
+  filter(SASAP.Region == "Kodiak") %>% 
+ggplot(aes(x = Year, y = escapement, color = Species)) + 
+    geom_line() +
+    geom_point()
 ```
 
