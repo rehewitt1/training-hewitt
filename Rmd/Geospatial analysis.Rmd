@@ -1,0 +1,24 @@
+---
+---
+title: "Geospatial Analysis"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+library(sf)
+library(ggplot2)
+library(scales)
+library(ggmap)
+library(dplyr)
+```
+
+```{r}
+ak_regions <- read_sf("shapefiles/ak_regions_simp.shp")
+class(ak_regions)
+plot(ak_regions)  
+```
+ 
